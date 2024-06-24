@@ -1,0 +1,18 @@
+quaternionarray
+pysm3
+#
+# Uncomment here if installing wheel, and comment out
+# line in packages_local.txt
+#pysqlite3-wheels
+#so3g
+#
+# BBPipe
+libsubmit==0.4.0
+parsl<0.6.0
+https://github.com/simonsobs/BBPipe/archive/master.tar.gz
+#fgbuster
+travis-sphinx
+sympy==1.11
+git+http://github.com/dpole/cmbdb.git@master
+git+https://github.com/fgbuster/fgbuster@master
+#BBPower

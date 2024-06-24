@@ -1,0 +1,35 @@
+# Adjust the default python version
+python=3.9.*
+#
+jupyterlab
+pip-autoremove
+# BBPipe
+ipyparallel
+entrypoints
+paramiko
+globus-sdk
+dill
+tblib
+nbsphinx
+stack_data
+pure_eval
+jupyter_core
+jupyter_client
+jupyterlab_pygments
+python-fastjsonschema
+#fgbuster
+six
+parameterized
+corner
+pysm3
+setuptools-git
+pandas
+tqdm
+#BBPower
+namaster
+sacc
+emcee
+ipython_genutils
+dominate
+camb
+getdist

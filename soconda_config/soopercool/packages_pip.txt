@@ -1,0 +1,18 @@
+quaternionarray
+pysm3
+#
+# Uncomment here if installing wheel, and comment out
+# line in packages_local.txt
+#pysqlite3-wheels
+#so3g
+#
+# Latest tag
+#https://github.com/simonsobs/sotodlib/archive/master.tar.gz
+https://github.com/simonsobs/sotodlib/archive/b7af7971bcd97181c3068cb64daf3d1e4b219cb9.tar.gz
+#
+# The mapsims package has hard-coded versions of pysm3 and
+# pixell, which un-installs our versions of those packages.
+#https://github.com/galsci/mapsims/archive/main.tar.gz
+# Following packages for SOOPERCOOL
+https://github.com/simonsobs/SOOPERCOOL/archive/926de4a1c4e67d130ca7506a93e05128d26faff8.tar.gz
+#https://github.com/simonsobs/so_noise_models/archive/master.tar.gz
