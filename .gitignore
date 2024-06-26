@@ -1,0 +1,4 @@
+bbpower_standalone/inputs
+bbpower_standalone/outputs
+__pycache__
+.ipynb_checkpoints

@@ -1,0 +1,2 @@
+- The `bbpower` directory should link to `/path/to/BBPower/bbpower`
+- The `noise_calc.py` file should link to `/path/to/BBPower/examples/noise_calc.py`
