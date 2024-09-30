@@ -1,6 +1,6 @@
-import numpy as np
+#import numpy as np
 
-exec(open('envs.py').read())
+#exec(open('envs.py').read())
 
 l0_dust = 80.0
 alpha_dust_EE = -0.42

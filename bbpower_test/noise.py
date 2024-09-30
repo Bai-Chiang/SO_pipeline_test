@@ -1,6 +1,6 @@
 import noise_calc
 
-exec(open('envs.py').read())
+#exec(open('envs.py').read())
 
 Nell = np.zeros((n_freq,l_max+1))
 
@@ -33,7 +33,7 @@ for i in range(n_freq):
     Nell_bands[i,0,i,0,:] = Nell_binned[i,:]
     Nell_bands[i,1,i,1,:] = Nell_binned[i,:]
 
-exec(open('bandpass.py').read())
+#exec(open('cl_bands.py').read())
 CNell_bands = cl_bands + Nell_bands
 
 # covariance matrix

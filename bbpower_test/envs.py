@@ -14,7 +14,7 @@ dl2cl[0] = dl2cl[1]
 freq_channels = [27, 39, 90, 150, 220, 280]
 n_freq = len(freq_channels)
 
-# window function
+# window function for Dl
 bpw = np.zeros((nbins,l_max+1))
 for b in range(nbins):
     l0 = 2 + b*bin_size

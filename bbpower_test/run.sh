@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-rm -rf inputs &> /dev/null
-rm -rf outputs &> /dev/null
-
-mkdir -p inputs
-mkdir -p outputs
-
-python write_sacc.py
+#rm -rf inputs &> /dev/null
+#rm -rf outputs &> /dev/null
+#
+#mkdir -p inputs
+#mkdir -p outputs
+#
+#python get_binned_cls.py
 
 python -m bbpower BBCompSep \
     --cells_coadded=inputs/cls_coadd.fits \

@@ -1,6 +1,6 @@
-import numpy as np
+#import numpy as np
 
-exec(open('envs.py').read())
+#exec(open('envs.py').read())
 
 l0_sync = 80.0
 alpha_sync_EE = -0.6

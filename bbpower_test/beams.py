@@ -1,7 +1,7 @@
-import numpy as np
+#import numpy as np
 import healpy as hp
 
-exec(open('envs.py').read())
+#exec(open('envs.py').read())
 
 # full-width half-max in arcmin
 # LF1   f027   7.4

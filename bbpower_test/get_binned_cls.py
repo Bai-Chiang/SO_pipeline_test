@@ -1,14 +1,21 @@
 import numpy as np
 import sacc
 
-exec(open('bandpass.py').read())
-exec(open('beams.py').read())
+exec(open('envs.py').read())
+
+exec(open('generate_cmb_ps.py').read())
+exec(open('generate_dust_ps.py').read())
+exec(open('generate_sync_ps.py').read())
+
+exec(open('sed.py').read())
+exec(open('cl_bands.py').read())
 
 sacc_coadded = sacc.Sacc()
 sacc_fiducial = sacc.Sacc()
 sacc_noise = sacc.Sacc()
 
 # Add tracers
+exec(open('beams.py').read())
 for i in freq_channels:
     bp = bandpass[i]
     bm = beams[i]

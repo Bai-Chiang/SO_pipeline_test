@@ -1,7 +1,7 @@
-import numpy as np
+#import numpy as np
 import camb
 
-exec(open('envs.py').read())
+#exec(open('envs.py').read())
 
 camb_params_lensed_r0 = camb.set_params(
     cosmomc_theta=0.0104085,

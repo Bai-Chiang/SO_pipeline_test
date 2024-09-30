@@ -1,7 +1,7 @@
-import numpy as np
+#import numpy as np
 
-exec(open('envs.py').read())
-exec(open('sed.py').read())
+#exec(open('envs.py').read())
+#exec(open('sed.py').read())
 
 # LF1   f027
 # LF2   f039
@@ -46,7 +46,7 @@ for i in bandpass:
 
 
 # Beams
-exec(open('sed.py').read())
+#exec(open('sed.py').read())
 
 nu0_sync = 23.0
 beta_sync = -3.0
@@ -66,9 +66,9 @@ for i,n in enumerate(bandpass):
         np.sum( dnu * bp * nu**2 * sed_dust(nu, nu0=nu0_dust, beta=beta_dust, temp=temp_dust))
         ])
 
-exec(open('generate_cmb_ps.py').read())
-exec(open('generate_sync_ps.py').read())
-exec(open('generate_dust_ps.py').read())
+#exec(open('generate_cmb_ps.py').read())
+#exec(open('generate_sync_ps.py').read())
+#exec(open('generate_dust_ps.py').read())
 # 3 components 2 polarization (EE,BB)
 cl_binned = np.zeros((3,2,3,2,nbins))
 # CMB
